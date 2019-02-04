@@ -4,7 +4,9 @@
   ],
   "command": {
     "publish": {
-      "ignoreChanges": ["README.md"]
+      "ignoreChanges": [
+        "README.md"
+      ]
     }
   },
   "version": "0.0.6"
