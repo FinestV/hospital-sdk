@@ -5,6 +5,9 @@
   "author": "Ben Warbrooke <ben.warbrooke@pushpay.com>",
   "homepage": "",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "lib/patient.js",
   "directories": {
     "lib": "lib",
@@ -17,5 +20,5 @@
     "tsc": "tsc",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "gitHead": "28b25998801322f816e784d7c07ff41ca9a352f6"
+  "gitHead": "e3a1e24723d385b49a64bd5d286f9571716c8a20"
 }
