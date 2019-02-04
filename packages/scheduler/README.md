@@ -1,6 +1,6 @@
 # `scheduler`
 
-> TODO: description
+An awesome scheduler
 
 ## Usage
 
