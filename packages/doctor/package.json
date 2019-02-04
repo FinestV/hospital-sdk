@@ -4,7 +4,7 @@
   "description": "> TODO: description",
   "author": "Ben Warbrooke <ben.warbrooke@pushpay.com>",
   "homepage": "",
-  "license": "ISC",
+  "license": "MIT",
   "main": "lib/doctor.js",
   "directories": {
     "lib": "lib",
