@@ -5,6 +5,7 @@
   "author": "Ben Warbrooke <ben.warbrooke@pushpay.com>",
   "homepage": "",
   "license": "MIT",
+  "sideEffects": false,
   "publishConfig": {
     "access": "public"
   },
