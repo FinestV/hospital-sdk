@@ -16,7 +16,7 @@ export class DecoratedDoctor extends React.Component<{}> {
     render() {
         return (
             <div>
-                Decorate Doc
+                Something new
             </div>
         );
     }
