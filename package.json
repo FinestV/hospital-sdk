@@ -3,10 +3,19 @@
   "private": true,
   "devDependencies": {
     "@types/node": "^10.12.21",
-    "lerna": "^3.10.7",
+    "@types/react": "^16.8.4",
+    "lerna": "^3.13.0",
+    "mobx": "^5.9.0",
+    "mobx-react": "^5.4.3",
+    "react": "^16.8.2",
     "typescript": "^3.3.1"
   },
   "scripts": {
     "publish": "lerna run tsc && lerna publish"
+  },
+  "dependencies": {
+    "@finestpackages/doctor": "file:packages\\doctor",
+    "@finestpackages/patient": "file:packages\\patient",
+    "@finestpackages/scheduler": "file:packages\\scheduler"
   }
 }
