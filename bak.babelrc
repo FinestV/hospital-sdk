@@ -1,0 +1,10 @@
+{
+    "presets": [
+        "@babel/react",
+        "@babel/typescript"
+    ],
+    "ignore": [
+        "**/__tests__", // ignore the whole test directory
+        "**/node_modules"
+    ]
+}

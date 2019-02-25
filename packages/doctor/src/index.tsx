@@ -1,18 +1,20 @@
 import React from "react";
-import { observer } from "mobx-react";
+import PenSVG from "./pen.svg";
+
+export const Pen = PenSVG;
 
 export class Doctor extends React.Component<{}> {
     render() {
         return (
             <div>
                 Doctor
+                <PenSVG />
             </div>
         );
     }
 }
 
-@observer
-export class DecoratedDoctor extends React.Component<{}> {
+export class DecoratedDoctor extends React.Component {
     render() {
         return (
             <div>
@@ -22,8 +24,7 @@ export class DecoratedDoctor extends React.Component<{}> {
     }
 }
 
-@observer
-export class AnotherDecoratedDoctor extends React.Component<{}> {
+export class AnotherDecoratedDoctor extends React.Component {
     render() {
         const anotherOne = Object.assign({}, {});
         return (
