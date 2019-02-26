@@ -1,7 +1,7 @@
 import React from "react";
 import PenSVG from "./pen.svg";
 import Foo from "./foo";
-// import { Bar } from "./bar";
+import { Bar } from "./bar";
 
 export const Pen = PenSVG;
 
@@ -32,7 +32,7 @@ export class AnotherDecoratedDoctor extends React.Component {
         const anotherOne = Object.assign({}, {});
         return (
             <div>
-                {/* <Bar /> */}
+                <Bar />
                 {anotherOne.toString()}
             </div>
         );
