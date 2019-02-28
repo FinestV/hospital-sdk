@@ -1,5 +1,4 @@
 node_modules/
+packages/*/lib
 lerna-debug.log
 npm-debug.log
-packages/*/lib
-.idea

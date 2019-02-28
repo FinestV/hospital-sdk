@@ -9,12 +9,12 @@
         "emitDeclarationOnly": true,
         "declarationMap": true,
         "skipLibCheck": true,
-        "noImplicitAny": false,
+        "noImplicitAny": true,
         "removeComments": true,
         "noLib": false,
         //"emitDecoratorMetadata": true,
         //"experimentalDecorators": true,
-        "sourceMap": true
+        //"sourceMap": true
     },
     "exclude": [
         "node_modules",
