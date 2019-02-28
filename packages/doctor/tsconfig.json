@@ -2,7 +2,7 @@
     "extends": "../../tsconfig.json",
     "compilerOptions": {
         //"outDir": "./lib"
-        "outFile": "./lib/doctor.js"
+        "outFile": "./lib/doctor"
     },
     "include": [
         "./src"
