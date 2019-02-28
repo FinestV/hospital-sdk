@@ -3,9 +3,9 @@ module.exports = {
         "@babel/react",
         "@babel/typescript",
     ],
-    plugins: [
-        "inline-react-svg",
-    ],
+    // plugins: [
+    //     "inline-react-svg",
+    // ],
     babelrcRoots: [
         ".",
         "packages/",

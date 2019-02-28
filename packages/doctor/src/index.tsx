@@ -1,15 +1,16 @@
 import React from "react";
-export * from "./pen.svg";
+import PenSVG from "./pen.svg";
 import Foo from "./foo";
 import { Bar } from "./bar";
 
-//export const Pen = PenSVG;
+export const Pen = PenSVG;
 
 export class Doctor extends React.Component<{}> {
     render() {
         return (
             <div>
                 Doctor
+                <Pen />
             </div>
         );
     }

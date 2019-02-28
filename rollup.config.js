@@ -2,6 +2,7 @@
 //import svgr from '@svgr/rollup';
 import importCwd from 'import-cwd';
 import babel from 'rollup-plugin-babel';
+import svgr from '@svgr/rollup';
 //import peerDepsExternal from 'rollup-plugin-peer-deps-external';
 import resolve from 'rollup-plugin-node-resolve';
 import commonjs from 'rollup-plugin-commonjs';
@@ -30,6 +31,8 @@ const plugins = [
     resolve({
         extensions,
     }),
+
+    svgr(),
     
     babel({
         extensions,
