@@ -19,7 +19,9 @@ const extensions = [
     '.js', '.jsx', '.ts', '.tsx', '.svg'
 ];
 
-const external = pkg.peerDependencies && Object.keys(pkg.peerDependencies);
+// const external = pkg.peerDependencies && Object.keys(pkg.peerDependencies);
+// externalize all dependencies and peerDependencies they should be installed by the consumer
+const external = Object.keys({ ...pkg.dependencies, ...pkg.peerDependencies});
 //const sourceMap = nodeEnv === dev ? 'inline' : false;
 
 const plugins = [
@@ -98,4 +100,8 @@ function parseNodeEnv(nodeEnv) {
         return nodeEnv.trim();
     }
     return dev;
+}
+
+function getExternals() {
+
 }
